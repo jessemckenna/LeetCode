@@ -2,7 +2,6 @@
 Solutions to LeetCode practice questions
 
 ## Problems solved
-*(new to old)*
 | # | Title | Solution | Date | Time | Space | Difficulty | Notes |
 | - | ----- | -------- | ---- | ---- | ----- | ---------- | ----- |
 | 136 | [Single Number](https://leetcode.com/problems/single-number/) | [Python](./Python/136-single-number.py) | 2018-3-27 | O(n) | O(1) | Easy | |
