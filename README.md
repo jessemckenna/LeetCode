@@ -2,7 +2,9 @@
 Solutions to LeetCode practice questions
 
 ## Problems solved
+*(new to old)*
 | # | Title | Solution | Date | Time | Space | Difficulty | Notes |
 | - | ----- | -------- | ---- | ---- | ----- | ---------- | ----- |
-| 344 | [Reverse String](https://leetcode.com/problems/reverse-string/) | [Python](./Python/344-reverse-string.py) | 2018-3-26 | O(n) | O(n) | Easy | |
+| 136 | [Single Number](https://leetcode.com/problems/single-number/) | [Python](./Python/136-single-number.py) | 2018-3-27 | O(n) | O(1) | Easy | |
 | 412 | [Fizz Buzz](https://leetcode.com/problems/fizz-buzz/) | [Python](./Python/412-fizz-buzz.py) | 2018-3-27 | O(n) | O(n) | Easy | |
+| 344 | [Reverse String](https://leetcode.com/problems/reverse-string/) | [Python](./Python/344-reverse-string.py) | 2018-3-26 | O(n) | O(n) | Easy | |
