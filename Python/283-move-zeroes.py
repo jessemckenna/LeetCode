@@ -17,27 +17,36 @@ class Solution(object):
 		:rtype: void Do not return anything, modify nums in-place instead.
 		"""
 
-		# moving zeroes one at a time would be O(n^2)
-		
-		# count the zeroes? but then we need to somehow move the non-zeroes
-		
-		# iterate until find non-zero, then swap it and continue iterating?
-		# could use 2 pointers (one at the 0, one to iterate for a non-0) - O(n)?
-
 		n = len(nums)
+		if n <= 1:
+			return
 
+		### bubble-sort implementation: O(n^2) ###	
+		# swaps = 1
+		# while (swaps > 0):
+		# 	swaps = 0
+		# 	for i in range(n - 1):
+		# 		if nums[i] == 0:
+		# 			nums[i], nums[i + 1] = nums[i + 1], nums[i] # swap i, i + 1
+		# 			swaps += 1
+
+		### two-pointer implementation: O(n) ###
 		currentZero = 0
 		nextNonZero = 0
 
-		# TODO: the below is a draft. needs review, especially index bounds!
-
-		while (currentZero < n):
-			if nums[currentZero] != 0:
-				currentZero += 1 # iterate until find a 0 value
-			else:
+		while True:
+			while nums[currentZero] != 0: # iterate until find a 0
+				currentZero += 1
+				if currentZero == n - 1: # end of array reached, no more 0s
+					return
+			
+			if nextNonZero <= currentZero:
 				nextNonZero = currentZero + 1
-				while nums[nextNonZero] == 0:
-					nextNonZero += 1 # iterate until find a non-0 value to swap
 
-				swap(nums[currentZero], nums[nextNonZero])
-				currentZero = nextNonZero
+			while nums[nextNonZero] == 0: # iterate until find a non-0 to swap
+				nextNonZero += 1
+				if nextNonZero == n: # end of array reached, all 0s placed
+					return
+
+			nums[currentZero], nums[nextNonZero] = \
+					nums[nextNonZero], nums[currentZero] # swap elements

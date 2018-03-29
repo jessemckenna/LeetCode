@@ -4,6 +4,7 @@ Solutions to LeetCode practice questions. Problems attempted to date listed belo
 ## Problems solved
 | # | Title | Solution | Date | Time | Space | Difficulty | Notes |
 | - | ----- | -------- | ---- | ---- | ----- | ---------- | ----- |
+| 283 | [Move Zeroes](https://leetcode.com/problems/move-zeroes/) | [Python](./Python/283-move-zeroes.py) | 2018-3-29 | O(n) | O(1) | Easy | |
 | 104 | [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | [Python](./Python/104-maximum-depth-of-binary-tree.py) | 2018-3-28 | O(n) | O(h) | Easy | |
 | 136 | [Single Number](https://leetcode.com/problems/single-number/) | [Python](./Python/136-single-number.py) | 2018-3-27 | O(n) | O(1) | Easy | |
 | 412 | [Fizz Buzz](https://leetcode.com/problems/fizz-buzz/) | [Python](./Python/412-fizz-buzz.py) | 2018-3-27 | O(n) | O(n) | Easy | |
