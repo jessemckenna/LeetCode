@@ -11,7 +11,20 @@ class Solution(object):
 		:rtype: int
 		"""
 		
-		# thoughts: consider that remainder is similar to subtraction for small
-		# numbers, ex. 5 % 3 = 2, and 5 - 3 = 2.
-		# for small numbers, essentially we have x % a = b, and we need x.
-		# maybe expand on that concept?
+		if b == 0:
+			return a
+		if a == 0:
+			return b
+
+		# bitwise XOR: partial solution before carrying digits
+		partialSolution = a ^ b
+
+		# bitwise AND: digits that need carrying (i.e. 1 digits in both numbers)
+		digitsToCarry = a & b
+
+		# left-shift toCarry by 1: carried digits to be added to solution
+		carriedDigits = digitsToCarry << 1
+
+		# recursively call until all carried digits have been correctly placed,
+		# i.e. continue until carriedDigits == 0
+		return self.getSum(partialSolution, carriedDigits)
