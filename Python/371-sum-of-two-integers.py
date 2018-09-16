@@ -10,9 +10,16 @@ class Solution(object):
 		:type b: int
 		:rtype: int
 		"""
-		
+
+		maxInt = 0x7FFFFFFF # max 32-bit int
+		mask = 0xFFFFFFFF # 32-bit number consisting of all 1s, 
+						  # used to get last 32 bits of Python's 64-bit integers
+
 		if b == 0:
-			return a
+			if a <= maxInt:
+				return a
+			else:
+				return ~(a ^ mask) # return 32-bit complement
 		if a == 0:
 			return b
 
@@ -24,6 +31,9 @@ class Solution(object):
 
 		# left-shift toCarry by 1: carried digits to be added to solution
 		carriedDigits = digitsToCarry << 1
+
+		partialSolution = partialSolution & mask
+		carriedDigits = carriedDigits & mask
 
 		# recursively call until all carried digits have been correctly placed,
 		# i.e. continue until carriedDigits == 0

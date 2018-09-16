@@ -4,6 +4,7 @@ Solutions to LeetCode practice questions. Problems attempted to date listed belo
 ## Problems solved
 | # | Title | Solution | Date | Time | Space | Difficulty | Notes |
 | - | ----- | -------- | ---- | ---- | ----- | ---------- | ----- |
+| 171 | [Excel Sheet Column Number](https://leetcode.com/problems/excel-sheet-column-number/) | [Python ](./Python/171-excel-sheet-column-number.py) | 2018-5-2 | O(n) | O(1) | Easy | |
 | 686 | [Repeated String Match](https://leetcode.com/problems/repeated-string-match/) | [Python ](./Python/686-repeated-string-match.py) | 2018-4-30 | O(n^2) | O(n^2) | Easy | Time limit exceeded - needs improvement |
 | 482 | [License Key Formatting](https://leetcode.com/problems/license-key-formatting/) | [Python ](./Python/482-license-key-formatting.py) | 2018-4-23 | O(n) | O(n) | Easy | Solution can be improved - retry later |
 | 371 | [Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/) | [Python](./Python/371-sum-of-two-integers.py) | 2018-4-11 | O(n) | O(n) | Easy | Looked up solution - retry later |
