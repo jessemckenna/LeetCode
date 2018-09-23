@@ -4,6 +4,7 @@ Solutions to LeetCode practice questions. Problems attempted to date listed belo
 ## Problems solved
 | # | Title | Solution | Date | Time | Space | Difficulty | Notes |
 | - | ----- | -------- | ---- | ---- | ----- | ---------- | ----- |
+| 387 | [First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/) | [Python ](./Python/387-first-unique-character-in-a-string.py) | 2018-9-23 | O(n) | O(1) | Easy | |
 | 155 | [Min Stack](https://leetcode.com/problems/min-stack/) | [Python ](./Python/155-min-stack.py) | 2018-9-23 | O(1) | O(n) | Easy | |
 | 60 | [Plus One](https://leetcode.com/problems/plus-one/) | [Python ](./Python/60-plus-one.py) | 2018-9-23 | O(n) | O(1) | Easy | |
 | 20 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | [Python ](./Python/20-valid-parentheses.py) | 2018-9-23 | O(n) | O(n) | Easy | |
