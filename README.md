@@ -4,6 +4,9 @@ Solutions to LeetCode practice questions. Problems attempted to date listed belo
 ## Problems solved
 | # | Title | Solution | Date | Time | Space | Difficulty | Notes |
 | - | ----- | -------- | ---- | ---- | ----- | ---------- | ----- |
+| 155 | [Min Stack](https://leetcode.com/problems/min-stack/) | [Python ](./Python/155-min-stack.py) | 2018-9-23 | O(1) | O(n) | Easy | |
+| 60 | [Plus One](https://leetcode.com/problems/plus-one/) | [Python ](./Python/60-plus-one.py) | 2018-9-23 | O(n) | O(1) | Easy | |
+| 20 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | [Python ](./Python/20-valid-parentheses.py) | 2018-9-23 | O(n) | O(n) | Easy | |
 | 171 | [Excel Sheet Column Number](https://leetcode.com/problems/excel-sheet-column-number/) | [Python ](./Python/171-excel-sheet-column-number.py) | 2018-9-16 | O(n) | O(1) | Easy | |
 | 686 | [Repeated String Match](https://leetcode.com/problems/repeated-string-match/) | [Python ](./Python/686-repeated-string-match.py) | 2018-4-30 | O(n^2) | O(n^2) | Easy | Time limit exceeded - needs improvement |
 | 482 | [License Key Formatting](https://leetcode.com/problems/license-key-formatting/) | [Python ](./Python/482-license-key-formatting.py) | 2018-4-23 | O(n) | O(n) | Easy | Solution can be improved - retry later |
